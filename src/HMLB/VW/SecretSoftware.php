@@ -30,6 +30,7 @@ class SecretSoftware
         'PHPCI',
         'GOCD_SERVER_HOST',
         'BUILDKITE',
+        'SHIPPABLE',
     );
 
     public function __construct(array $additionalEnvVariables = array())
